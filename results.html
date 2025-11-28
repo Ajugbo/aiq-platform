@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIQ Results - Your Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="results-container">
+            <h2>Your AIQ Results</h2>
+            
+            <div class="score-circle">
+                <div class="score-inner">
+                    <div class="main-score" id="scoreDisplay">0</div>
+                    <div class="score-label">AIQ Score</div>
+                </div>
+            </div>
+
+            <div class="aiq-level">
+                <h3>Level: <span id="levelDisplay">Calculating...</span></h3>
+            </div>
+
+            <div class="certificate-code">
+                <p>Your Verification Code:</p>
+                <div class="code-display" id="certificateCode">AIQ-XXXXXXX</div>
+                <p class="small">Use this code to verify your results anytime</p>
+            </div>
+
+            <div class="action-buttons">
+                <a href="verify.html" class="btn primary">Verify Another Result</a>
+                <a href="test.html" class="btn secondary">Retake Test</a>
+                <a href="index.html" class="btn ghost">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
