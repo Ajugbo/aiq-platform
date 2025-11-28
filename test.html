@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIQ Test - Artificial Intelligence Quotient</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="test-header">
+            <h2>AIQ Assessment</h2>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <p>Question <span id="currentQ">1</span> of 5</p>
+        </div>
+
+        <div class="test-content">
+            <div id="question1" class="question active">
+                <h3>Scenario 1: Research Assistance</h3>
+                <p>You need to research the impact of remote work on urban real estate markets. Write a prompt to get comprehensive insights from an AI assistant.</p>
+                <textarea id="response1" placeholder="Write your AI prompt here..."></textarea>
+            </div>
+
+            <div id="question2" class="question">
+                <h3>Scenario 2: Creative Task</h3>
+                <p>Create a prompt that would generate innovative ideas for reducing single-use plastics in office environments using AI brainstorming.</p>
+                <textarea id="response2" placeholder="Write your AI prompt here..."></textarea>
+            </div>
+
+            <div id="question3" class="question">
+                <h3>Scenario 3: Problem Solving</h3>
+                <p>Design a prompt to analyze customer feedback data and identify the top 3 improvement areas for a SaaS product.</p>
+                <textarea id="response3" placeholder="Write your AI prompt here..."></textarea>
+            </div>
+
+            <div id="question4" class="question">
+                <h3>Scenario 4: Complex Analysis</h3>
+                <p>Create a prompt that would help you understand the potential impacts of quantum computing on cybersecurity.</p>
+                <textarea id="response4" placeholder="Write your AI prompt here..."></textarea>
+            </div>
+
+            <div id="question5" class="question">
+                <h3>Scenario 5: Iterative Refinement</h3>
+                <p>The AI didn't understand your first request. Write a follow-up prompt to clarify and get better results.</p>
+                <textarea id="response5" placeholder="Write your refinement prompt here..."></textarea>
+            </div>
+        </div>
+
+        <div class="test-controls">
+            <button id="prevBtn" class="btn secondary">Previous</button>
+            <button id="nextBtn" class="btn primary">Next Question</button>
+            <button id="submitBtn" class="btn success" style="display: none;">Submit Test</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
