@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify AIQ Certificate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="verify-container">
+            <h2>Verify AIQ Certificate</h2>
+            <p>Enter a certificate code to verify authenticity</p>
+            
+            <div class="verify-form">
+                <input type="text" id="verifyCode" placeholder="Enter code (e.g. AIQ-ABC123)" class="code-input">
+                <button id="verifyBtn" class="btn primary">Verify Certificate</button>
+            </div>
+
+            <div id="verifyResult" class="verify-result hidden">
+                <div class="result-card">
+                    <h3 id="resultTitle">Certificate Verified</h3>
+                    <div class="result-details">
+                        <p><strong>AIQ Score:</strong> <span id="resultScore">-</span></p>
+                        <p><strong>Level:</strong> <span id="resultLevel">-</span></p>
+                        <p><strong>Date:</strong> <span id="resultDate">-</span></p>
+                        <p><strong>Status:</strong> <span id="resultStatus">-</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="verify-help">
+                <p class="small">Certificate codes look like: AIQ-ABC123XY</p>
+                <a href="index.html" class="btn ghost">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
